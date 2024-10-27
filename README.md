@@ -9,7 +9,6 @@ RecipeAI is an interactive web application that leverages AI to assist users wit
 - **Recipe Suggestions**: Ask for recipes based on ingredients you have on hand.
 - **Detailed Instructions**: Get step-by-step cooking instructions for specific recipes.
 - **Dark Mode**: Toggle between light and dark themes for comfortable viewing.
-- **Responsive Design**: Use RecipeAI on desktop or mobile devices.
 
 ## Technologies Used
 
