@@ -36,13 +36,13 @@ RecipeAI is an interactive web application that leverages AI to assist users wit
    ```
 
 3. **Set Up Environment Variables**
-   Create a `.env` file in the root directory and add the following:
+   - Create a `.env` file in the root directory and add the following:
    ```
    OPENROUTER_API_KEY=your_openrouter_api_key
    YOUR_SITE_URL=http://localhost:3000
    YOUR_SITE_NAME=RecipeAI
    ```
-   Replace `your_openrouter_api_key` with your actual OpenRouter API key.
+   - Replace `your_openrouter_api_key` with your actual OpenRouter API key.
 
 4. **Start the Backend Server**
    ```
