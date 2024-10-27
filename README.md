@@ -69,6 +69,6 @@ RecipeAI is an interactive web application that leverages AI to assist users wit
 
 - Thanks to OpenRouter for providing the AI capabilities.
 - Icons provided by FontAwesome.
-- Built with React for frontend and Express for backend.
+- Built with React and Express.
 
 Enjoy cooking with RecipeAI!
