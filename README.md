@@ -26,7 +26,7 @@ Follow these steps to get RecipeAI up and running on your local machine:
 
 1. **Clone the Repository**
    ```
-   git clone https://github.com/yourusername/recipeai.git
+   git clone https://github.com/yourusername/RecipeAI.git
    cd recipeai
    ```
 
@@ -64,14 +64,6 @@ Follow these steps to get RecipeAI up and running on your local machine:
 - Click the "New Chat" button to start a fresh conversation.
 - Use the sidebar to navigate between different chats or access the Profile, Settings, and Help pages.
 - Toggle between light and dark modes in the Settings page.
-
-## Contributing
-
-We welcome contributions to RecipeAI! Please feel free to submit issues, fork the repository and send pull requests!
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE.md file for details.
 
 ## Acknowledgments
 
