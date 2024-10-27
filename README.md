@@ -22,7 +22,7 @@ RecipeAI is an interactive web application that leverages AI to assist users wit
 
 ## How to Run RecipeAI
 
-Follow these steps to get RecipeAI up and running on your local machine:
+- Follow these steps to get RecipeAI up and running on your local machine:
 
 1. **Clone the Repository**
    ```
@@ -50,13 +50,13 @@ Follow these steps to get RecipeAI up and running on your local machine:
    ```
 
 5. **Start the Frontend Development Server**
-   Open a new terminal window and run:
+   - Open a new terminal window and run:
    ```
    npm start
    ```
 
 6. **Access the Application**
-   Open your web browser and go to `http://localhost:3000`
+   - Open your web browser and go to `http://localhost:3000`
 
 ## Usage
 
