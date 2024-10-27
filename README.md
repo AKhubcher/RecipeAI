@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# RecipeAI: Your Intelligent Cooking Assistant
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+RecipeAI is an interactive web application that leverages AI to assist users with cooking-related queries, recipe suggestions, and culinary advice. It's designed to be your personal sous-chef, helping you explore new recipes, understand cooking techniques, and make the most of your ingredients.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **AI-Powered Cooking Assistant**: Get instant answers to your cooking questions and recipe inquiries.
+- **Multiple Chat Sessions**: Start new conversations while keeping your previous chats accessible.
+- **Recipe Suggestions**: Ask for recipes based on ingredients you have on hand.
+- **Detailed Instructions**: Get step-by-step cooking instructions for specific recipes.
+- **Dark Mode**: Toggle between light and dark themes for comfortable viewing.
+- **Responsive Design**: Use RecipeAI on desktop or mobile devices.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React.js for the frontend
+- Node.js and Express for the backend
+- OpenRouter API for AI-powered responses
+- React Router for navigation
+- FontAwesome for icons
+- Axios for HTTP requests
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## How to Run RecipeAI
 
-### `npm test`
+Follow these steps to get RecipeAI up and running on your local machine:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the Repository**
+   ```
+   git clone https://github.com/yourusername/recipeai.git
+   cd recipeai
+   ```
 
-### `npm run build`
+2. **Install Dependencies**
+   ```
+   npm install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Set Up Environment Variables**
+   Create a `.env` file in the root directory and add the following:
+   ```
+   OPENROUTER_API_KEY=your_openrouter_api_key
+   YOUR_SITE_URL=http://localhost:3000
+   YOUR_SITE_NAME=RecipeAI
+   ```
+   Replace `your_openrouter_api_key` with your actual OpenRouter API key.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. **Start the Backend Server**
+   ```
+   npm run server
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. **Start the Frontend Development Server**
+   Open a new terminal window and run:
+   ```
+   npm start
+   ```
 
-### `npm run eject`
+6. **Access the Application**
+   Open your web browser and go to `http://localhost:3000`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Type your cooking-related questions or ingredient lists in the chat input.
+- Click the "New Chat" button to start a fresh conversation.
+- Use the sidebar to navigate between different chats or access the Profile, Settings, and Help pages.
+- Toggle between light and dark modes in the Settings page.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contributing
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+We welcome contributions to RecipeAI! Please feel free to submit issues, fork the repository and send pull requests!
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This project is licensed under the MIT License - see the LICENSE.md file for details.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Acknowledgments
 
-### Code Splitting
+- Thanks to OpenRouter for providing the AI capabilities.
+- Icons provided by FontAwesome.
+- Built with React for frontend and Express for backend.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Enjoy cooking with RecipeAI!
